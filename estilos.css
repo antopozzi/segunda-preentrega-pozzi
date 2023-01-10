@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yantramanav', sans-serif;
+    
+}
+.hero{
+    background-image: url(./imagenes/camarab&n.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.icono{
+    height: 70px;
+    width: 70px;
+    
+}
+/* CSS cards nosotros */
+
+.card-profesionalismo:hover{
+    transform: scale(1.2);
+    transition-duration:1.5s;
+}
+
+.card-escencia:hover{
+    transform: scale(1.2);
+    transition-duration:1.5s;
+}
+
+.card-dinamica:hover{
+    transform: scale(1.2);
+    transition-duration:1.5s;
+}
+
+/* css fotografia */
+
+.headerFotografia{
+    padding:15px;
+    width: 100%;
+}
+.h2fotografia{
+    text-align: center;
+}
+
+.Presentacion p {
+    padding:20px;
+    border: 2px solid white;
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+}
+.listaFotografia{
+    text-align: center;
+}
+
+.contenedor{
+    
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas:
+    "img1 img2 img3 img3"
+    "img1 img2 img3 img3"
+    "img4 img2 img5 img6"
+    "img7 img7 img5 img8";
+} 
+
+.itemII{
+    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    margin:2px;
+}
+
+.item1{
+    grid-area: img1;
+    background-image: url(./imagenes/erik\ byn.jpg); 
+}
+
+.item2{
+    grid-area: img2;
+    background-image: url(./imagenes/guitarracolor.jpg); 
+   
+}
+
+.item3{
+    grid-area: img3;
+    background-image: url(./imagenes/chello\ byn.jpg); 
+}
+
+.item4{
+    grid-area: img4;
+    background-image: url(./imagenes/folclorecolor.jpg);
+   
+}
+.item5{
+    grid-area: img5;
+    background-image: url(./imagenes/percusionb&n.jpg);
+}
+.item6{
+    grid-area: img6;
+    background-image: url(./imagenes/chacarerab&n.jpg);
+}
+.item7{
+    grid-area: img7;
+    background-image: url(./imagenes/trompetab&n.jpg);
+     
+
+}
+.item8{
+    grid-area: img8;
+    background-image: url(./imagenes/jarana\ color.jpg);
+}
+
+/* Estilos FOOTER */
+
+footer{
+    
+    background-color:black;
+    text-align: center;
+    font-size:15px;
+    text-transform: capitalize;
+    padding:15px;
+    border: 2px solid white;
+} 
+
+footer p{
+    margin-bottom: 15px;
+    
+}
+
+footer i{
+    font-size:30px;
+    letter-spacing: 15px;
+    color:white;
+    
+
+} 
+
+.yo{
+    font-size:10px;
+}
+
+/* estilos contacto */
+
